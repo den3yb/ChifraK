@@ -1,0 +1,115 @@
+body{
+    color: rgb(198, 196, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(44, 41, 64);
+    min-height: 100%;
+}
+
+p {
+    margin: 6px;
+    font-size: medium;
+    color:black;
+}
+
+ul {
+    margin: 0;
+    font-size: medium;
+    color: rgb(217, 220, 232);
+}
+
+ol {
+    margin: 0;
+    font-size: medium;
+    color: rgb(217, 220, 232);
+}
+
+a{
+    font-size: large;
+    color: rgb(240, 116, 116);
+}
+h1{
+    margin-top: 4px;
+    font-size: xx-large;
+    color: rgb(230, 78, 78);
+}
+
+h2{
+    margin-bottom: 5px;
+    font-size: x-large;
+    color: rgb(185, 195, 233);
+}
+
+li{
+    margin: 6px;
+}
+
+.element{
+    margin: 30px 0 30px 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.content-left{
+    background: rgb(34, 31, 53);
+    width: 68%;
+    padding: 6px;
+    border-radius: 5%;
+}
+.content-right{
+    background: rgb(34, 31, 53);
+    text-align: center;
+    width: 28%;
+    padding: 4px;
+    border-radius: 5%;
+}
+
+.light{
+    color: white;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.first{
+    margin-top: 25px;
+}
+
+.fact-image {
+    max-width: 100%; 
+    height: auto;    
+}
+
+table { 
+    width: 90%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+} 
+ 
+th { 
+    background-color: rgb(96, 67, 120); 
+    border: 1px solid rgb(217, 220, 232); 
+    font-size: large; 
+} 
+ 
+
+ 
+td { 
+    font-size: large; 
+    padding: 10px; 
+    text-align: left; 
+    border: 1px solid rgb(217, 220, 232); 
+} 
+ 
+tr:nth-child(3n) { 
+    background-color: rgb(56, 33, 60); 
+} 
+tr:nth-child(3n-1) { 
+    background-color: rgb(60, 33, 50); 
+} 
+ 
+tr:nth-child(3n-2) { 
+    background-color: rgb(45, 36, 69); 
+}
